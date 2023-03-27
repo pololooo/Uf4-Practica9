@@ -13,8 +13,6 @@ public class Vehicle {
         this.autonomia = autonomia;
         this.fabricant = fabricant;
     }
-    
-    despegar() i aterrar() 
 
     public int getVelocitat() {
         return velocitat;
