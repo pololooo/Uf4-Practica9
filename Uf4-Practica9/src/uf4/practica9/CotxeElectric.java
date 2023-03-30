@@ -20,7 +20,7 @@ public class CotxeElectric extends Cotxe {
 
     @Override
     public String toString() {
-        
-        return "CotxeElectric{" + '}';
+
+        return "CotxeElectric{" + super.toString() + '}';
     }
 }

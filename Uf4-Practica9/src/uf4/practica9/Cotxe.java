@@ -33,6 +33,8 @@ public class Cotxe extends Vehicle {
 
     @Override
     public String toString() {
-        return "Cotxe{" + "portes=" + portes + ", passatgers=" + passatgers + super.toString + '}';
+        return "Cotxe{" + "portes=" + portes
+                + ", passatgers=" + passatgers
+                + super.toString() + '}';
     }
 }

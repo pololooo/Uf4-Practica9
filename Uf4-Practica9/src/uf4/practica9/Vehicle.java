@@ -52,6 +52,10 @@ public class Vehicle {
 
     @Override
     public String toString() {
-        return "Vehicle{" + "velocitat=" + velocitat + ", color=" + color + ", autonomia=" + autonomia + ", fabricant=" + fabricant + '}';
+        return "Vehicle{" + "velocitat=" + velocitat
+                + ", color=" + color
+                + ", autonomia=" + autonomia
+                + ", fabricant=" + fabricant
+                + super.toString() + '}';
     }
 }

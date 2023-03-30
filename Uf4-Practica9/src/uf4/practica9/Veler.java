@@ -43,6 +43,9 @@ public class Veler extends Vehicle {
 
     @Override
     public String toString() {
-        return "Veler{" + "manga=" + manga + ", eslora=" + eslora + ", veles=" + veles + '}';
+        return "Veler{" + "manga=" + manga
+                + ", eslora=" + eslora
+                + ", veles=" + veles
+                + super.toString() + '}';
     }
 }

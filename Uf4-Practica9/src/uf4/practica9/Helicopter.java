@@ -33,6 +33,8 @@ public class Helicopter extends Vehicle {
 
     @Override
     public String toString() {
-        return "Helicopter{" + "varietat=" + varietat + ", potenciaMotor=" + potenciaMotor + '}';
+        return "Helicopter{" + "varietat=" + varietat
+                + ", potenciaMotor=" + potenciaMotor
+                + super.toString() + '}';
     }
 }
