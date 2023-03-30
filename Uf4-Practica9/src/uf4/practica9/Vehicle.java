@@ -14,6 +14,10 @@ public class Vehicle {
         this.fabricant = fabricant;
     }
 
+    public Vehicle() {
+
+    }
+
     public int getVelocitat() {
         return velocitat;
     }

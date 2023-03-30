@@ -14,8 +14,13 @@ public class CotxeElectric extends Cotxe {
         super(portes, passatgers, velocitat, color, autonomia, fabricant);
     }
 
+    public CotxeElectric() {
+
+    }
+
     @Override
     public String toString() {
+        
         return "CotxeElectric{" + '}';
     }
 }

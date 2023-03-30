@@ -13,6 +13,10 @@ public class Veler extends Vehicle {
         this.veles = veles;
     }
 
+    public Veler() {
+
+    }
+
     public int getManga() {
         return manga;
     }

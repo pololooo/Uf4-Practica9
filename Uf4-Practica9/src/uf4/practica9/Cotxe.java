@@ -11,6 +11,10 @@ public class Cotxe extends Vehicle {
         this.passatgers = passatgers;
     }
 
+    public Cotxe() {
+
+    }
+
     public int getPortes() {
         return portes;
     }
@@ -31,5 +35,4 @@ public class Cotxe extends Vehicle {
     public String toString() {
         return "Cotxe{" + "portes=" + portes + ", passatgers=" + passatgers + '}';
     }
-
 }

@@ -11,9 +11,8 @@ public class Helicopter extends Vehicle {
         this.potenciaMotor = potenciaMotor;
     }
 
-    @Override
-    public String toString() {
-        return "Helicopter{" + "varietat=" + varietat + ", potenciaMotor=" + potenciaMotor + '}';
+    public Helicopter() {
+
     }
 
     public String getVarietat() {
@@ -30,5 +29,10 @@ public class Helicopter extends Vehicle {
 
     public void setPotenciaMotor(int potenciaMotor) {
         this.potenciaMotor = potenciaMotor;
+    }
+
+    @Override
+    public String toString() {
+        return "Helicopter{" + "varietat=" + varietat + ", potenciaMotor=" + potenciaMotor + '}';
     }
 }
